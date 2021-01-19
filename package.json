@@ -27,9 +27,9 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/projects.git"
+    "url": "https://github.com/azureossd/nodejs-linux-2.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "edisga",
   "license": "",
   "engines": {
     "node": "^12.20"
