@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="page-header">
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div>
+        <div class="jumbotron">
+          <h1 class="display-4">Projects App!</h1>
+          <p class="lead">Displays a list of current projects.</p>
+          <hr class="my-4">
+        </div>
+        <div class="text-center">
+              <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</td>
+                        <th scope="col">Title</th>
+                        <th scope="col">Project Manager</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% projects.forEach(function(project){ %>
+                    <tr>
+                        <td> <%= project.id %> </td>
+                        <td> <%= project.title %> </td>
+                        <td> <%= project.project_manager %> </td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+              </table>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
