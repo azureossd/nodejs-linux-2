@@ -12,7 +12,7 @@
     "random-int": "^2.0.1",
     "sails": "^1.4.0",
     "sails-hook-grunt": "^5.0.0",
-    "sails-hook-orm": "^3.0.1",
+    "sails-hook-orm": "^4.0.3",
     "sails-hook-sockets": "^3.0.2"
   },
   "devDependencies": {
